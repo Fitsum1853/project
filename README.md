@@ -3,7 +3,7 @@
 ## Overview
 This web application predicts the market value of a soccer 
 player based on their age, games played, and goals scored. 
-The model used for predictions is a linear regression model trained on a dataset of soccer player statistics.
+The model used for predictions is a linear regression model trained on this dataset from kaggle https://www.kaggle.com/datasets/kriegsmaschine/soccer-players-values-and-their-statistics. 
 ## Model Limitations
 Simplicity of the Model: The model used is a linear regression model, which may 
 not capture more complex relationships between features and the target variable (market value).
