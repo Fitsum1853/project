@@ -26,21 +26,24 @@ Clone this repository to your local machine:
 Set up a virtual environment (optional, but recommended):
 
 ``` python -m venv venv ```
+
 Activate the virtual environment:
 
 Windows:
 ``` venv\Scripts\activate ```
+
 Mac/Linux:
 ``` source venv/bin/activate ```
 
 Install the required dependencies:
 ``` pip install -r requirements.txt ```
 
-Running the App
+### Running the App
 Ensure your virtual environment is activated (if you're using one).
 
 Start the Flask development server by running the following command:
 ``` python app.py ```
+
 Open a web browser and go to http://127.0.0.1:5000/ to use the app.
 
 ### Input Instructions
