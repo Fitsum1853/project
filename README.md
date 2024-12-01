@@ -20,43 +20,29 @@ to predict the market value of a player, which may not be accurate in all cases.
 ## Running the App
 ### Installation Steps
 Clone this repository to your local machine:
+``` git clone <repository_url>  ```
+``` cd <repository_folder> ```
 
-''' git clone <repo URL> '''
-
-bash
-Copy code
-git clone <repository_url>
-cd <repository_folder>
 Set up a virtual environment (optional, but recommended):
 
-bash
-Copy code
-python -m venv venv
+``` python -m venv venv ```
 Activate the virtual environment:
 
 Windows:
-bash
-Copy code
-venv\Scripts\activate
+``` venv\Scripts\activate ```
 Mac/Linux:
-bash
-Copy code
-source venv/bin/activate
-Install the required dependencies:
+``` source venv/bin/activate ```
 
-bash
-Copy code
-pip install -r requirements.txt
+Install the required dependencies:
+``` pip install -r requirements.txt ```
+
 Running the App
 Ensure your virtual environment is activated (if you're using one).
 
 Start the Flask development server by running the following command:
-
-bash
-Copy code
-python app.py
+``` python app.py ```
 Open a web browser and go to http://127.0.0.1:5000/ to use the app.
 
-Input Instructions
+### Input Instructions
 Enter the age, games played, and goals scored of a player into the input fields on the web page.
 Click the "Predict" button to get the predicted market value of the player.
